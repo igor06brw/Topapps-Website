@@ -1,11 +1,7 @@
 
+@import './fonts';
 @import './header';
 @import './nav';
-
-@font-face {
-    font-family: 'OpenSans';
-    src: url('../assets/fonts/Open_Sans/OpenSans-Regular.ttf')  format('truetype'),
-  }
 
 
 :root {
@@ -13,7 +9,7 @@
 }
 
 body {
-    max-width: 1920px;
+    max-width: 1920px;  
     font-family: 'OpenSans', sans-serif;
     background: var(--main-color);
 }

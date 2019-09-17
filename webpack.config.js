@@ -7,12 +7,14 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     output: {
+        publicPath: './',
         path: path.resolve(__dirname, 'dist/'),
         filename: 'js/app.bundle.js'
     },
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
-        compress: true,
+        contentBase: './dist',
+        writeToDisk: true,
+        watchContentBase: true,
         port: 9876
     },
     module: {
@@ -36,7 +38,7 @@ module.exports = {
                 use: [
                 {
                     loader: "html-loader",
-                    options: { minimize: true }
+                    options: { minimize: false }
                 }
                 ]
             },
@@ -47,7 +49,7 @@ module.exports = {
                     loader: 'file-loader',
                     options: {
                       name: '[name].[ext]',
-                      outputPath: 'assets/fonts/'
+                      outputPath: '../assets/fonts/'
                     }
                   }
                 ]
@@ -58,8 +60,9 @@ module.exports = {
                   {
                     loader: 'file-loader',
                     options: {
-                      name: 'assets/images/[name].[ext]',
-                      publicPath: './'
+                      name: '[name].[ext]',
+                      outputPath: '../assets/images/',
+                      publicPath: '../assets/images/'
                     }
                   }
                 ]

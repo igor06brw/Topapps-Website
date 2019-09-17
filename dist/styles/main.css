@@ -1,11 +1,41 @@
 @font-face {
   font-family: 'OpenSans';
-  src: url(assets/fonts/OpenSans-Regular.ttf) format("truetype"); }
+  font-weight: 400;
+  src: url(./../assets/fonts/OpenSans-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: 700;
+  src: url(./../assets/fonts/OpenSans-Bold.ttf) format("truetype"); }
+
+.nav {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 150px;
+  border: 1px solid #333; }
+  .nav .logo__wrapper .logo__picture {
+    background-image: url(../assets/images/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10em;
+    height: 300px; }
+  .nav .nav__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none; }
+    .nav .nav__list .nav__element {
+      padding-left: 5rem; }
+      .nav .nav__list .nav__element .nav__link {
+        color: #303030;
+        font-size: 24px;
+        font-weight: 700;
+        text-decoration: none; }
 
 :root {
-  --main-color: #000; }
+  --main-color: #eee; }
 
 body {
+  max-width: 1920px;
   font-family: 'OpenSans', sans-serif;
   background: var(--main-color); }
 

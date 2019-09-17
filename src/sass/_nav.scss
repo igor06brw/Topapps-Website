@@ -1,15 +1,27 @@
 .nav {
     display: grid;
+    grid-template-columns: 25% 75%;
+    height: 150px;
+    border: 1px solid #333;
     .logo__wrapper {
         .logo__picture {
-
+            background-image: url(../assets/images/logo.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 10em;
+            height: 300px;
         }
     }
     .nav__list {
+        display:flex;
+        flex-direction: row;
         list-style: none;
         .nav__element {
-            grid-template-columns: repeat(auto);
+            padding-left: 5rem;
             .nav__link {
+                color: #303030;
+                font-size: 24px;
+                font-weight: 700;
                 text-decoration: none;
             }
         }
