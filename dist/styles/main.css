@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url(assets/fonts/OpenSans-Regular.ttf) format("truetype"); }
+
+:root {
+  --main-color: #000; }
+
+body {
+  font-family: 'OpenSans', sans-serif;
+  background: var(--main-color); }
+

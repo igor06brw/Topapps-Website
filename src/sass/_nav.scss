@@ -1,0 +1,17 @@
+.nav {
+    display: grid;
+    .logo__wrapper {
+        .logo__picture {
+
+        }
+    }
+    .nav__list {
+        list-style: none;
+        .nav__element {
+            grid-template-columns: repeat(auto);
+            .nav__link {
+                text-decoration: none;
+            }
+        }
+    }
+}
