@@ -334,6 +334,10 @@ textarea {
   font-weight: 700;
   src: url(./../assets/fonts/OpenSans-Bold.ttf) format("truetype"); }
 
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url(./../assets/fonts/Raleway-Medium.ttf) format("truetype"); }
+
 .header {
   display: grid; }
 

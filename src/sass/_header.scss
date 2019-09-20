@@ -1,3 +1,27 @@
+@import './buttons';
+
 .header {
     display: grid;
+    
+    .header__container {
+        .header__heading-box {
+            .header__heading-text {
+                .bold-text {
+
+                }
+            }
+            .header__content-text {
+
+            }
+            
+        }
+    }
+
+    .header__heading-picture {
+        .picture__box {
+            img {
+                
+            }
+        }
+    }
 }
