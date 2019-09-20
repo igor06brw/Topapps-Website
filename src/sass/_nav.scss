@@ -1,29 +1,39 @@
 .nav {
     display: grid;
-    grid-template-columns: 25% 75%;
-    height: 150px;
+    grid-template-columns: 240px 1fr;
     border: 1px solid #333;
+    height: 150px;  
     .logo__wrapper {
+        align-self:  center;
         .logo__picture {
-            background-image: url(../assets/images/logo.png);
-            background-size: 100%;
             background-repeat: no-repeat;
-            width: 10em;
-            height: 300px;
+            background-position: center;
+            width: 12em;
+            padding: 10px 20px;
         }
     }
     .nav__list {
         display:flex;
         flex-direction: row;
+        flex-wrap: wrap;
         list-style: none;
+        margin-left: 10em;
         .nav__element {
-            padding-left: 5rem;
+            padding: 0 2rem 0 2rem;
+            align-self:  center;
             .nav__link {
+                text-transform: uppercase;
+                font-family: 'OpenSans-Bold';
                 color: #303030;
-                font-size: 24px;
+                font-size: 1rem;
                 font-weight: 700;
                 text-decoration: none;
+
+                &:hover {
+                    color: #4776e6;
+                }
             }
+            
         }
     }
 }
