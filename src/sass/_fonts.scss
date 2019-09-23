@@ -1,14 +1,22 @@
 @font-face {
     font-family: 'OpenSans-Regular';
     font-weight: 400;
-    src: url('./../assets/fonts/Open_Sans/OpenSans-Regular.ttf')  format('truetype');
+    src: url('/../assets/fonts/OpenSans-Regular.ttf')  format('truetype');
 }
 @font-face {
     font-family: 'OpenSans-Bold';
     font-weight: 700;
-    src: url('./../assets/fonts/Open_Sans/OpenSans-Bold.ttf')  format('truetype');
+    src: url('/../assets/fonts/OpenSans-Bold.ttf')  format('truetype');
 }
 @font-face {
     font-family: 'Raleway-Medium';
-    src: url('./../assets/fonts/Raleway/Raleway-Medium.ttf')  format('truetype');
+    src: url('/../assets/fonts/Raleway-Medium.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('/../assets/fonts/Raleway-Bold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('/../assets/fonts/OpenSans-SemiBold.ttf')  format('truetype');
 }

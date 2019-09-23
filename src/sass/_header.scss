@@ -1,26 +1,70 @@
+
 @import './buttons';
 
 .header {
     display: grid;
-    
+   
     .header__container {
-        .header__heading-box {
-            .header__heading-text {
-                .bold-text {
 
+        display: grid;
+        grid-template-columns: 40% 30%;
+        grid-template-rows: 70vh;
+        grid-gap: 30px 50px;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 auto;
+        padding-top: 60px;
+
+        background-color: $blue;
+
+        .header__heading-box {
+
+            height: 70vh;
+            color: $white;
+
+            margin: 0 auto;
+
+            .header__heading-text {
+                display: inline-block;
+
+                margin-top: 150px;
+                font-size: 3em;
+
+                padding-bottom: 30px;
+
+                &::first-line {
+                    padding: 10px; 
+                }
+
+                .bold-text {
+                    font-family: 'Raleway-Bold';
+                    
+                    display: inline-block;
+                    
+                    &::before {
+                        content: "\A";
+                        white-space: pre;
+                        
+
+                    }
                 }
             }
             .header__content-text {
-
+                font-family: 'OpenSans-Regular';
+                line-height: 1.8;
+                font-size: 16px;
             }
             
         }
-    }
+        .header__heading-picture {
 
-    .header__heading-picture {
-        .picture__box {
-            img {
-                
+            margin: 0 auto;
+            
+            .picture__box {
+                img {
+                    
+                }
             }
         }
     }
