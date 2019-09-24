@@ -346,12 +346,54 @@ textarea {
   font-family: 'OpenSans-SemiBold';
   src: url("/../assets/fonts/OpenSans-SemiBold.ttf") format("truetype"); }
 
+.button {
+  padding: 20px 25px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  text-transform: uppercase;
+  margin: 10px;
+  font-size: 14px;
+  font-family: 'OpenSans-SemiBold';
+  color: #303030; }
+  .button:first-of-type {
+    margin-left: 0; }
+
+.button--white {
+  background-color: #fff; }
+
+.button--blue {
+  background-color: #4776e6;
+  border: 1px solid #fff;
+  color: white; }
+
+.button {
+  padding: 20px 25px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  text-transform: uppercase;
+  margin: 10px;
+  font-size: 14px;
+  font-family: 'OpenSans-SemiBold';
+  color: #303030; }
+  .button:first-of-type {
+    margin-left: 0; }
+
+.button--white {
+  background-color: #fff; }
+
+.button--blue {
+  background-color: #4776e6;
+  border: 1px solid #fff;
+  color: white; }
+
 .header {
   display: grid; }
   .header .header__container {
     display: grid;
     grid-template-columns: 40% 30%;
-    grid-template-rows: 70vh;
+    grid-template-rows: 80vh;
     grid-gap: 30px 50px;
     align-items: center;
     justify-content: center;
@@ -364,23 +406,29 @@ textarea {
       margin: 0 auto; }
       .header .header__container .header__heading-box .header__heading-text {
         display: inline-block;
-        margin-top: 150px;
+        margin-top: 70px;
         font-size: 3em;
-        padding-bottom: 30px; }
+        padding-bottom: 20px; }
         .header .header__container .header__heading-box .header__heading-text::first-line {
           padding: 10px; }
         .header .header__container .header__heading-box .header__heading-text .bold-text {
           font-family: 'Raleway-Bold';
-          display: inline-block; }
+          display: inline-block;
+          line-height: 1; }
           .header .header__container .header__heading-box .header__heading-text .bold-text::before {
             content: "\A";
             white-space: pre; }
       .header .header__container .header__heading-box .header__content-text {
         font-family: 'OpenSans-Regular';
-        line-height: 1.8;
-        font-size: 16px; }
+        line-height: 1.6;
+        font-size: 16px;
+        padding-bottom: 30px; }
     .header .header__container .header__heading-picture {
-      margin: 0 auto; }
+      display: flex;
+      align-content: center;
+      justify-content: center; }
+      .header .header__container .header__heading-picture .picture__box img {
+        width: 110%; }
 
 .nav {
   display: grid;
