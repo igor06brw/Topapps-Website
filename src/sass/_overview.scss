@@ -1,0 +1,65 @@
+.overview__section {
+    background-color: $shade-of-white;
+    .overview__container {
+        grid-template-columns: 50%;
+        grid-row-gap: 50px;
+        .overview__row {
+ 
+            margin-bottom: 50px;
+
+            &:last-of-type {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            .overview__heading {
+                color: $blue;
+                font-size: $section-heading;
+                font-family: 'Raleway-Bold';
+                text-align: center;
+                text-transform: uppercase;
+            }
+            .overview__underline {
+
+                .overview__underline-dot {
+                }      
+            }
+            .overview__description {
+                font-family: 'OpenSans-Regular';
+                font-size: $section-description;
+            }
+
+            .overview__content {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+
+                width: 280px;
+
+                padding: 50px 5px;
+
+                background-color: $white;
+
+
+                .overview__icon{
+                    display: flex;
+                    align-self: center;
+                    
+                    font-size: 40px;
+                    color: $blue;
+
+                    margin-bottom: 50px;
+
+                }
+                .overview__title {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                    color: $black;
+                }
+                .overview__description {
+                    line-height: 2;
+
+                }
+            }
+        }
+    }
+}

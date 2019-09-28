@@ -1,10 +1,20 @@
 @import './reset';
 @import './colors';
+@import './variables';
+@import './patterns';
 @import './fonts';
 @import './buttons';
 @import './header';
 @import './nav';
+@import './overview';
 @import './body';
+
+
+
+$fa-font-path: "../assets/fonts/";
+@import "./font-awesome/fontawesome.scss";
+
+
 
 
 :root {
