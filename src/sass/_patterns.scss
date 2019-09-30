@@ -26,7 +26,11 @@
     }
 }
 .column {
-    
+    display: grid;
+    justify-content: center;
+    grid-gap: 5%;
+
+    grid-template-columns: 1fr 1fr;
 }
 .heading {
     color: $blue;

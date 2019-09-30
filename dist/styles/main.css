@@ -343,6 +343,12 @@ textarea {
   .row:first-of-type {
     grid-template-rows: 60px 70px; }
 
+.column {
+  display: grid;
+  justify-content: center;
+  grid-gap: 5%;
+  grid-template-columns: 1fr 1fr; }
+
 .heading {
   color: #4776e6;
   font-size: 30px;
@@ -559,6 +565,34 @@ textarea {
 
 body {
   margin: 0 auto; }
+
+.how-it-works__section .how-it-works__container {
+  grid-template-columns: 70%; }
+  .how-it-works__section .how-it-works__container .how-it-works__column {
+    grid-template-columns: 600px 1fr; }
+    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row:first-of-type {
+      grid-template-rows: repeat(4, 100px);
+      grid-gap: 30px; }
+    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row:last-of-type {
+      justify-content: initial; }
+    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__content .how-it-works__title {
+      text-align: left;
+      margin-bottom: 15px; }
+    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__content .how-it-works__description {
+      line-height: 2; }
+    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures {
+      position: relative; }
+      .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box {
+        position: absolute;
+        top: 0;
+        left: 0; }
+        .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box:first-of-type {
+          z-index: 2;
+          top: -10%;
+          left: 10%; }
+        .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box:last-of-type {
+          top: 0;
+          left: 30%; }
 
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
