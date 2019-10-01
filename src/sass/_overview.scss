@@ -1,6 +1,7 @@
 .overview__section {
     background-color: $shade-of-white;
     .overview__container {
+        grid-template-rows: 150px 350px;
         .overview__row {
  
             margin-bottom: 50px;
