@@ -1,6 +1,5 @@
 .how-it-works__section {
     .how-it-works__container {
-        grid-template-columns: 70%;
         .how-it-works__row {
             .how-it-works__heading {
                 .how-it-works__underline{
@@ -13,6 +12,7 @@
         }
         .how-it-works__column {
             grid-template-columns: 600px 1fr;
+            grid-template-rows: 1fr;
             .how-it-works__row {
 
 
@@ -31,6 +31,7 @@
 
                     }
                     .how-it-works__description {
+                        font-family: 'OpenSans-Light';
                         line-height: 2;
                     }
                 }

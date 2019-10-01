@@ -1,11 +1,16 @@
 .topapps-features__section {
+    background-color: $blue;
     .topapps-features__container {
         .topapps-features___row {
-
+            
         }
         .topapps-features__column {
+            grid-template-columns: 1fr 1fr 1fr;
             .how-it-works__row {
-                .topapps-features__column {
+                &:first-of-type {
+                    grid-template-rows: 1fr 1fr; 
+                }
+                grid-template-rows: 1fr 1fr 1fr;
                     .topapps-features__content {
                         .topapps-features__title {
 
@@ -17,15 +22,15 @@
 
                         }
                     }
-                    .how-it-works__pictures {
+                    .how-it-works__picture {
                         .picture__box {
                             img {
-                                
+
                             }
                         }
                     }
                 }
-            }
+    
         }
     }
 }

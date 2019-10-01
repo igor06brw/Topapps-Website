@@ -333,21 +333,18 @@ textarea {
   grid-template-rows: 150px 1fr;
   justify-content: center;
   align-content: center;
-  grid-template-columns: 50%;
+  grid-template-columns: 70%;
   grid-row-gap: 50px; }
 
 .row {
   display: grid;
   justify-content: center;
   grid-gap: 5%; }
-  .row:first-of-type {
-    grid-template-rows: 60px 70px; }
 
 .column {
   display: grid;
   justify-content: center;
-  grid-gap: 5%;
-  grid-template-columns: 1fr 1fr; }
+  grid-gap: 5%; }
 
 .heading {
   color: #4776e6;
@@ -384,7 +381,11 @@ textarea {
   font-size: 16px;
   font-family: 'OpenSans-Regular';
   text-align: center;
-  line-height: 2; }
+  line-height: 2;
+  margin: 0 auto; }
+
+.--white {
+  color: #fff; }
 
 @font-face {
   font-family: 'OpenSans-Regular';
@@ -407,6 +408,10 @@ textarea {
 @font-face {
   font-family: 'OpenSans-SemiBold';
   src: url("/../assets/fonts/OpenSans-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("/../assets/fonts/OpenSans-Light.ttf") format("truetype"); }
 
 .button {
   padding: 20px 25px;
@@ -451,7 +456,8 @@ textarea {
   color: white; }
 
 .header {
-  display: grid; }
+  display: grid;
+  column-width: 80%; }
   .header .header__container {
     display: grid;
     grid-template-columns: 40% 30%;
@@ -563,33 +569,42 @@ textarea {
 body {
   margin: 0 auto; }
 
-.how-it-works__section .how-it-works__container {
-  grid-template-columns: 70%; }
-  .how-it-works__section .how-it-works__container .how-it-works__column {
-    grid-template-columns: 600px 1fr; }
-    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row:first-of-type {
-      grid-template-rows: repeat(4, 100px);
-      grid-gap: 30px; }
-    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row:last-of-type {
-      justify-content: initial; }
-    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__content .how-it-works__title {
-      text-align: left;
-      margin-bottom: 15px; }
-    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__content .how-it-works__description {
-      line-height: 2; }
-    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures {
-      position: relative; }
-      .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box {
-        position: absolute;
+.how-it-works__section .how-it-works__container .how-it-works__column {
+  grid-template-columns: 600px 1fr;
+  grid-template-rows: 1fr; }
+  .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row:first-of-type {
+    grid-template-rows: repeat(4, 100px);
+    grid-gap: 30px; }
+  .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row:last-of-type {
+    justify-content: initial; }
+  .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__content .how-it-works__title {
+    text-align: left;
+    margin-bottom: 15px; }
+  .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__content .how-it-works__description {
+    font-family: 'OpenSans-Light';
+    line-height: 2; }
+  .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures {
+    position: relative; }
+    .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box {
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box:first-of-type {
+        z-index: 2;
+        top: -10%;
+        left: 10%; }
+      .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box:last-of-type {
         top: 0;
-        left: 0; }
-        .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box:first-of-type {
-          z-index: 2;
-          top: -10%;
-          left: 10%; }
-        .how-it-works__section .how-it-works__container .how-it-works__column .how-it-works__row .how-it-works__pictures .picture__box:last-of-type {
-          top: 0;
-          left: 30%; }
+        left: 30%; }
+
+.topapps-features__section {
+  background-color: #4776e6; }
+  .topapps-features__section .topapps-features__container .topapps-features__column {
+    grid-template-columns: 1fr 1fr 1fr; }
+    .topapps-features__section .topapps-features__container .topapps-features__column .how-it-works__row {
+      grid-template-rows: 1fr 1fr 1fr; }
+      .topapps-features__section .topapps-features__container .topapps-features__column .how-it-works__row:first-of-type {
+        grid-template-rows: 1fr 1fr; }
 
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
