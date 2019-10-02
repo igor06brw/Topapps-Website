@@ -1,0 +1,43 @@
+.what-people-are-saying__section {
+    background-color: $white;
+    .what-people-are-saying__container {
+        .what-people-are-saying___row {
+            .what-people-are-saying__heading {
+                .what-people-are-saying__underline {
+                    .dots {
+
+                    }
+                }
+            }
+            .what-people-are-saying__description {
+
+            }
+        }
+        .what-people-are-saying__column {
+            .what-people-are-saying__picture {
+                .picture__box {
+                    position: relative;
+                    img {
+                        background-color: #eee;
+                        width: 100%;
+                    }
+                    .clip-path {
+                        top: 0;
+                        left: 0;
+                        position: absolute;
+                        background-color: black;
+                        width: 100%;
+                        height: 100%;
+                        clip-path: polygon(32% 71%, 100% 71%, 100% 97%, 0 100%, 0% 38%);
+                    }
+                }
+            }
+            .what-people-are-saying__circles-box {
+                .dot-alt {
+                }
+                .dot {
+                }
+            }
+        }
+    }
+}
