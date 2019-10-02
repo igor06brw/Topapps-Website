@@ -1,0 +1,34 @@
+.awesome-screenshots__section {
+    .awesome-screenshots__container {
+        .awesome-screenshots___row {
+            .awesome-screenshots__heading {
+                .awesome-screenshots__underline {
+                    .dots {
+
+                    }
+                }
+            }
+        }
+        .awesome-screenshots__column {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            &:last-of-type {
+                grid-template-columns: 1fr;
+            }
+            .awesome-screenshots__picture {
+                img {
+
+                }
+            }
+            .awesome-screenshots__circles-box {
+                margin: 0 auto;
+                .dot {
+                    color: $blue;
+                }
+                .dot-alt {
+                    color: $blue;
+                }
+            }
+        }
+    }
+}

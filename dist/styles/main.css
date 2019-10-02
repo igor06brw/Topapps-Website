@@ -691,6 +691,17 @@ body {
           display: flex;
           align-self: center; }
 
+.awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column {
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column:last-of-type {
+    grid-template-columns: 1fr; }
+  .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column .awesome-screenshots__circles-box {
+    margin: 0 auto; }
+    .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column .awesome-screenshots__circles-box .dot {
+      color: #4776e6; }
+    .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column .awesome-screenshots__circles-box .dot-alt {
+      color: #4776e6; }
+
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
