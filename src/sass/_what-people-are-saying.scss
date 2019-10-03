@@ -17,6 +17,7 @@
             .what-people-are-saying__picture {
                 .picture__box {
                     position: relative;
+                    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.25);
                     img {
                         background-color: #eee;
                         width: 100%;
@@ -25,10 +26,39 @@
                         top: 0;
                         left: 0;
                         position: absolute;
-                        background-color: black;
+                        background-color: rgba($color: $blue, $alpha: 0.8);
                         width: 100%;
                         height: 100%;
-                        clip-path: polygon(32% 71%, 100% 71%, 100% 97%, 0 100%, 0% 38%);
+                        clip-path: polygon(24% 65%, 100% 65%, 100% 100%, 0 100%, 0% 38%);
+                        
+                        .quote-content {
+                            position: relative;
+                            width:100%;
+                            height: 100%;
+                            font-family: 'OpenSans-Regular';
+                            color: $white;
+                            .quotation-mark {
+                                position: absolute;
+                                right: 50%;
+                                bottom: 20%;
+                                font-size: 3em;
+                                
+                            }
+                            .quote-text {
+                                width: 50%;
+                                position: absolute;
+                                font-size: 1em;
+                                right: 0;
+                                bottom: 15%;
+                            }
+                            .author-of-quote {
+                                position: absolute;
+                                font-size: 1em;
+                                right: 30%;
+                                bottom: 5%;
+                                text-transform: uppercase;
+                            }
+                        }
                     }
                 }
             }
