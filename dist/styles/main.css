@@ -389,6 +389,13 @@ textarea {
 .--white {
   color: #fff; }
 
+.circles-box {
+  margin: 0 auto; }
+  .circles-box .dot-alt {
+    color: #4776e6; }
+  .circles-box .dot {
+    color: #4776e6; }
+
 @font-face {
   font-family: 'OpenSans-Regular';
   font-weight: 400;
@@ -694,16 +701,18 @@ body {
 .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column {
   grid-template-columns: 1fr 1fr 1fr 1fr; }
   .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column:last-of-type {
+    margin: 0 auto;
     grid-template-columns: 1fr; }
-  .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column .awesome-screenshots__circles-box {
-    margin: 0 auto; }
-    .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column .awesome-screenshots__circles-box .dot {
-      color: #4776e6; }
-    .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column .awesome-screenshots__circles-box .dot-alt {
-      color: #4776e6; }
+  .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column .awesome-screenshots__circles-box .dot {
+    color: #4776e6; }
+  .awesome-screenshots__section .awesome-screenshots__container .awesome-screenshots__column .awesome-screenshots__circles-box .dot-alt {
+    color: #4776e6; }
 
 .what-people-are-saying__section {
   background-color: #fff; }
+  .what-people-are-saying__section .what-people-are-saying__container .what-people-are-saying__column:last-of-type {
+    grid-template-columns: 1fr;
+    margin: 0 auto; }
   .what-people-are-saying__section .what-people-are-saying__container .what-people-are-saying__column .what-people-are-saying__picture .picture__box {
     position: relative;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25); }
@@ -726,7 +735,7 @@ body {
         color: #fff; }
         .what-people-are-saying__section .what-people-are-saying__container .what-people-are-saying__column .what-people-are-saying__picture .picture__box .clip-path .quote-content .quotation-mark {
           position: absolute;
-          right: 50%;
+          right: 47%;
           bottom: 20%;
           font-size: 3em; }
         .what-people-are-saying__section .what-people-are-saying__container .what-people-are-saying__column .what-people-are-saying__picture .picture__box .clip-path .quote-content .quote-text {

@@ -81,3 +81,13 @@
 .--white {
     color: $white;
 }
+
+.circles-box {
+    margin: 0 auto;
+    .dot-alt {
+        color: $blue;
+    }
+    .dot {
+        color: $blue;
+    }
+}

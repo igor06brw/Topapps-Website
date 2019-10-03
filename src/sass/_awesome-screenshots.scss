@@ -13,6 +13,7 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
 
             &:last-of-type {
+                margin: 0 auto;
                 grid-template-columns: 1fr;
             }
             .awesome-screenshots__picture {
@@ -21,7 +22,6 @@
                 }
             }
             .awesome-screenshots__circles-box {
-                margin: 0 auto;
                 .dot {
                     color: $blue;
                 }
