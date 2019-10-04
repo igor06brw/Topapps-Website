@@ -1,0 +1,68 @@
+.meet-with-our-team__section {
+    .meet-with-our-team__container {
+        .meet-with-our-team___row {
+            .meet-with-our-team__heading {
+                .meet-with-our-team__underline {
+                    .dots {
+
+                    }
+                }
+            }
+            .meet-with-our-team__description {
+
+            }
+        }
+        .meet-with-our-team__column {
+            grid-template-columns: 1fr 1fr 1fr;
+            .meet-with-our-team__character-content {
+                background-color: $white;
+                img {
+                    background-color: $blue;
+                    width: 100%;
+
+                }
+                .meet-with-our-team__character-heading {
+                    padding-top: 20px;
+                    font-size: 1.2em;
+                    text-transform: capitalize;
+                }
+                .meet-with-our-team__character-position {
+                    color: $blue;
+                    font-size: 1em;
+                    text-align: center;
+                    padding: 10px 0 30px 0;
+
+                }
+                .meet-with-our-team__portfolio-links {
+                    background-color: $blue;
+                    text-align: center;
+                    vertical-align: middle;
+                    padding: 20px 0;
+                    .meet-with-our-team__link {
+                        display: inline-block;
+                        position: relative;
+                        margin: 0 3px;
+                        width: 30px;
+                        height: 30px;
+                        padding: 5px;
+                        font-size: 1.2em;
+                        color: $white;
+                        border: 1px solid transparent;
+                        transition: 0.2s all ease-in-out;
+
+                        &:hover, &:active, &:focus {
+                            color: $white;
+                            border: 1px solid $white;
+                        }  
+                    }
+                    .meet-with-our-team__link > * {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+        }
+    }
+}

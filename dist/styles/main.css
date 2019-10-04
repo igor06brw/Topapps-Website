@@ -755,6 +755,47 @@ body {
 .video__section {
   padding: 0; }
 
+.meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column {
+  grid-template-columns: 1fr 1fr 1fr; }
+  .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content {
+    background-color: #fff; }
+    .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content img {
+      background-color: #4776e6;
+      width: 100%; }
+    .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content .meet-with-our-team__character-heading {
+      padding-top: 20px;
+      font-size: 1.2em;
+      text-transform: capitalize; }
+    .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content .meet-with-our-team__character-position {
+      color: #4776e6;
+      font-size: 1em;
+      text-align: center;
+      padding: 10px 0 30px 0; }
+    .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content .meet-with-our-team__portfolio-links {
+      background-color: #4776e6;
+      text-align: center;
+      vertical-align: middle;
+      padding: 20px 0; }
+      .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content .meet-with-our-team__portfolio-links .meet-with-our-team__link {
+        display: inline-block;
+        position: relative;
+        margin: 0 3px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        font-size: 1.2em;
+        color: #fff;
+        border: 1px solid transparent;
+        transition: 0.2s all ease-in-out; }
+        .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content .meet-with-our-team__portfolio-links .meet-with-our-team__link:hover, .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content .meet-with-our-team__portfolio-links .meet-with-our-team__link:active, .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content .meet-with-our-team__portfolio-links .meet-with-our-team__link:focus {
+          color: #fff;
+          border: 1px solid #fff; }
+      .meet-with-our-team__section .meet-with-our-team__container .meet-with-our-team__column .meet-with-our-team__character-content .meet-with-our-team__portfolio-links .meet-with-our-team__link > * {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
