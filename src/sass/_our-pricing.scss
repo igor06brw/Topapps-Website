@@ -1,0 +1,97 @@
+.our-pricing__section {
+    background-color: $white;
+    .our-pricing__container {
+        .our-pricing__row {
+            .our-pricing__heading {
+                .our-pricing__underline {
+                    .dots {
+
+                    }
+                }
+            }
+        }
+        .our-pricing__description {
+
+        }
+    }
+    .our-pricing__column {
+        grid-template-columns: 1fr 1.2fr 1fr;
+
+
+        .our-pricing__price-content {
+            text-align: center;
+            font-size: 1.2em;
+            padding-top: 30px;
+
+            &:nth-of-type(2) {
+                background-color: red;
+                .our-pricing__price-heading {
+                    margin-bottom: 40px;
+                }
+                .our-pricing__buy-btn {
+                    margin-top: 40px;
+                 }
+            }
+
+            
+            & > h3, p, button {
+                
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                border-bottom: 1px solid $black;
+                width: 100%;
+            }
+
+            &:first-of-type, &:last-of-type {
+                background-color: $shade-of-white;
+
+                & > h3, p, button {
+                    border-bottom: 1px solid $white;
+                }
+            }
+
+
+            .our-pricing__price-heading {
+                padding: 20px 25px;
+                background-color: $white;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                text-transform: uppercase;
+                margin: 10px auto 20px auto;
+                width: 150px;
+                font-size: 1.5em;
+                font-family: 'OpenSans-Bold';
+                color: $blue;
+
+            }
+            .our-pricing__price-per-month {
+
+            }
+            .our-pricing__storage-file-size {
+
+            }
+            .our-pricing__limit-products {
+
+            }
+            .our-pricing__support {
+
+            }
+            .our-pricing__discout {
+
+            }
+            .our-pricing__buy-btn {
+                padding: 10px 35px;
+                background-color: $blue;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 10px auto 20px auto;
+                width: 150px;
+                font-size: 1em;
+                font-family: 'OpenSans-Bold';
+                color: $white;
+            }
+        }
+    }
+}

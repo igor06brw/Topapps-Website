@@ -82,6 +82,10 @@
     color: $white;
 }
 
+.--blue {
+    color: $blue;
+}
+
 .circles-box {
     margin: 0 auto;
     .dot-alt {
@@ -90,4 +94,8 @@
     .dot {
         color: $blue;
     }
+}
+
+.bolded-text {
+    font-family: OpenSans-Bold;
 }
