@@ -402,6 +402,15 @@ textarea {
 .bolded-text {
   font-family: OpenSans-Bold; }
 
+.input {
+  border: 1px solid #f6f6f6;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-family: 'OpenSans-Regular';
+  width: 400px;
+  text-indent: 10px; }
+
 @font-face {
   font-family: 'OpenSans-Regular';
   font-weight: 400;
@@ -965,6 +974,25 @@ body {
         font-size: 1em;
         font-family: 'OpenSans-Regular';
         color: #fff; }
+
+.contact-us__section .contact-us__container .contact-us__row .contact-us__form .contact-us__fields {
+  display: inline; }
+  .contact-us__section .contact-us__container .contact-us__row .contact-us__form .contact-us__fields .contact-us__input-field {
+    border: 1px solid #e4e4e4;
+    width: 40%; }
+
+.contact-us__section .contact-us__container .contact-us__row .contact-us__form .contact-us__input-field {
+  border: 1px solid #e4e4e4;
+  width: 100%; }
+
+.contact-us__section .contact-us__container .contact-us__row .contact-us__form textarea {
+  height: 300px; }
+
+.contact-us__section .contact-us__container .contact-us__row .contact-us__form .contact-us__submit-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 35px;
+  border-radius: 5px; }
 
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com

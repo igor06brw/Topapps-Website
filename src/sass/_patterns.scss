@@ -99,3 +99,15 @@
 .bolded-text {
     font-family: OpenSans-Bold;
 }
+
+.input {
+    border: 1px solid $shade-of-white;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+
+    font-family: 'OpenSans-Regular';
+
+    width: 400px;
+    text-indent: 10px;
+}
