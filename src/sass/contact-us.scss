@@ -1,6 +1,9 @@
 .contact-us__section {
     .contact-us__container {
         .contact-us__row {
+            &:last-of-type {
+                grid-template-rows: 1fr;
+            }
             .contact-us__heading {
                 .contact-us__underline {
                     .dots {

@@ -975,6 +975,9 @@ body {
         font-family: 'OpenSans-Regular';
         color: #fff; }
 
+.contact-us__section .contact-us__container .contact-us__row:last-of-type {
+  grid-template-rows: 1fr; }
+
 .contact-us__section .contact-us__container .contact-us__row .contact-us__form .contact-us__fields {
   display: inline; }
   .contact-us__section .contact-us__container .contact-us__row .contact-us__form .contact-us__fields .contact-us__input-field {
